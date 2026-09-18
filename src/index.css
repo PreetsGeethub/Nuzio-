@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: #080808;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes wave {
+
+  0% {
+    transform: scaleY(0.55);
+  }
+
+  25% {
+    transform: scaleY(1);
+  }
+
+  50% {
+    transform: scaleY(0.7);
+  }
+
+  75% {
+    transform: scaleY(1.08);
+  }
+
+  100% {
+    transform: scaleY(0.55);
+  }
+
+}
+
+.animate-wave {
+  animation-name: wave;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}

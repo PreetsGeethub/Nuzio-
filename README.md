@@ -10,7 +10,7 @@ Nuzio guides users through a short onboarding flow to understand their preferenc
 
 **Frontend:** Coming soon
 
-**Backend API:** Coming soon
+**Backend API:** Coming soonn
 
 ---
 
