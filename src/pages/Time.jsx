@@ -156,7 +156,7 @@ function Time() {
       */
 
       const existingResponse = await fetch(
-        "http://localhost:5000/api/preferences",
+        "https://nuzio-production.up.railway.app/api/preferences",
         {
           method: "GET",
           credentials: "include",
@@ -178,7 +178,7 @@ function Time() {
       */
 
       const response = await fetch(
-        "http://localhost:5000/api/preferences",
+        "https://nuzio-production.up.railway.app/api/preferences",
         {
           method: "POST",
           credentials: "include",
