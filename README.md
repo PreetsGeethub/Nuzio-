@@ -406,8 +406,3 @@ Built as a full-stack web development hiring assignment.
 This project was developed for evaluation purposes.
 
 
-### One change I'd make from the old README
-
-I've deliberately **not called the News data "real-time personalized news"** because our current `News.jsx` still uses the mock/local story dataset. That's safer and more accurate for an interviewer.
-
-And bro, **don't add anything else now**. Update README → commit → push → make sure Vercel doesn't break → run the live flow once → submit. 🔥
