@@ -21,7 +21,7 @@ import NuzioLogo from "../components/NuzioLogo";
 // API
 // ==========================================
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://nuzio-production.up.railway.app";
 
 // ==========================================
 // CATEGORIES

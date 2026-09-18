@@ -8,12 +8,11 @@ const preferencesRoutes = require("./routes/preferencesRoutes");
 const app = express();
 
 app.use(
-  cors({
-    origin: "http://localhost:5173",
-    credentials: true,
-  })
-);
-
+    cors({
+      origin: "https://nuzio-zeta.vercel.app",
+      credentials: true,
+    })
+  );
 app.use(express.json());
 app.use(cookieParser());
 // Auth routes
